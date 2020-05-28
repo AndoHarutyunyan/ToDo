@@ -1,0 +1,40 @@
+
+.outer {
+    width: 212px;
+    margin: auto;
+}
+.nestDiv {
+    margin-top: 10px;
+    border: 2px solid green;
+    width: 209px;
+    border-bottom: none;
+}
+#list {
+    padding-left: 0;
+    margin: 0;
+}
+.elemList  {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.rightInput {
+    order: 1;
+    display: flex;
+}
+.marked {
+    background-color: yellow;
+}
+#search-input {
+    margin-top: 6px;
+    width: 98%;
+}
+.elemList {
+    padding-top:3px;
+    padding-bottom: 3px;
+    border-bottom: 2px solid green;
+}
+.dis {
+    display: none
+}
