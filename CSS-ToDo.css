@@ -1,6 +1,6 @@
 
 .outer {
-    width: 212px;
+    width: 220px;
     margin: auto;
 }
 .nestDiv {
@@ -29,6 +29,7 @@
 #search-input {
     margin-top: 6px;
     width: 98%;
+    box-sizing: border-box;
 }
 .elemList {
     padding-top:3px;
