@@ -28,6 +28,7 @@ button.addEventListener('click',function () {
     }else{
         text.value=null
         alert("Please enter unique value ")
+        return
     }
 
     function unique(str){
